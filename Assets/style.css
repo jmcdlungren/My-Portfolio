@@ -155,6 +155,19 @@ main section h2 {
 
 }
 
+.work-item:first-child {
+
+}
+
+.work-item figure {
+    background-color: var(--primary);
+    padding: 4px 6px;
+}
+
+.work-item:hover {
+    
+}
+
 .prework-study-guide {
     background-image: url(./Prework\ study\ guide.jpg);
 }
