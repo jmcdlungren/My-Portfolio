@@ -76,7 +76,7 @@ header nav a:hover {
 }
 
 .banner {
-    background-image: url(./MCD.png);
+    background-image: url(./images/MCD.png);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
@@ -169,23 +169,23 @@ main section h2 {
 }
 
 .prework-study-guide {
-    background-image: url(./Prework\ study\ guide.jpg);
+    background-image: url(./images/Prework\ study\ guide.jpg);
 }
 
 .led-wall {
-    background-image: url(./LED\ Wall.jpg);
+    background-image: url(./images/LED\ Wall.jpg);
 }
 
 .calculator {
-    background-image: url(./Calculator.jpg);
+    background-image: url(./images/Calculator.jpg);
 }
 
 .pastel-puzzles {
-    background-image: url(./Pastel\ Puzzels.jpg);
+    background-image: url(./images/Pastel\ Puzzels.jpg);
 }
 
 .horiseon {
-    background-image: url(./Horiseon.jpg);
+    background-image: url(./images/Horiseon.jpg);
 }
 
 .details {
