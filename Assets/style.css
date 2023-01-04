@@ -1,0 +1,202 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+  --primary: rgba(158, 247, 238, 0.837);
+  --hcolor: rgb(65, 57, 57);
+  --dark: rgb(22, 22, 22);
+  --light: rgb(190, 208, 248);
+  --grey: rgba(199, 199, 199, 0.747);
+  --hover: black;
+  --hoverborder: red;
+  --contact: violet;
+}
+
+body {
+    flex-flow: column;
+}
+
+h1
+h2
+h3
+h4
+h5
+h6 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+header {
+    background-color: rgb(25, 25, 48);
+    margin: 0;
+    padding: 15px 6% 20px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+header h1 {
+    background-color: var(--primary);
+    color: var(--hcolor);
+    display: inline;
+    padding: 6px 0% 6px 4%;
+    font-size: 3em;
+    line-height: 1;
+    margin: 0;
+}
+
+header nav {
+    display: flex;
+    flex-flow: row;
+    margin-right: -5rem;
+}
+
+header nav a {
+    padding: 5px 20px;
+    text-decoration: none;
+    color: var(--primary);
+    font-size: 1.5rem;
+}
+
+header nav a:hover {
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+    background: var(--grey);
+    font-variant: small-caps;
+    border: 5px solid maroon;
+}
+
+.banner {
+    background-image: url(./MCD.png);
+    background-size: cover;
+    background-position: center;
+    background-blend-mode: soft-light;
+    max-height: 30vh;
+    padding: 11% 3%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    text-align: right;
+}
+
+.banner article {
+    flex: 0 0 90%;
+}
+
+.banner h2 {
+    background-color: var(--primary);
+    color: var(--hcolor);
+    margin: 0;
+    padding: 1px 10px;
+    font-size: 2rem;
+    line-height: 1.2;
+    display: inline;
+}
+
+main {
+    background: var(--light);
+    color: var(--dark);
+}
+
+main section {
+    display: flex;
+    flex-flow: row;
+
+}
+
+main section h2 {
+    font-size: 2.8rem;
+    margin: 1em 1em 1em 1.5em;
+    padding-right: 15px;
+    text-align: right;
+    border-right: 10px solid darkblue;
+    flex: 0 0 20%;
+    line-height: 1.1;
+    
+}
+
+.About {
+    font-size: 1.3rem;
+    display: flex;
+    flex-flow: column;
+}
+
+.About-p {
+    padding: 10px 0 0 5px;
+}
+
+.McDowell {
+    text-decoration: none;
+    color: purple;
+}
+
+.McDowell:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(133, 25, 25);
+}
+
+.work-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.work-item {
+
+}
+
+.prework-study-guide {
+    background-image: url(./Prework\ study\ guide.jpg);
+}
+
+.led-wall {
+
+}
+
+.calculator {
+
+}
+
+.pastel-puzzles {
+
+}
+
+.horiseon {
+    background-image: url(./Horiseon.jpg);
+}
+
+.details {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.details a {
+    text-decoration: none;
+    padding: 5px;
+    color: var(--dark);
+    font-size: 1.3rem;
+    background-image: linear-gradient(270deg, var(--contact) 0%, var(--contact) 100%);
+    background-repeat: no-repeat;
+    background-size: 100% 0.21em;
+    background-position: bottom;
+    margin: 89px 1.2rem 5.1rem;
+    display: inline-block;
+}
+
+.details a:hover {
+    cursor: pointer;
+    font-style: oblique;
+    background-size: 100%;
+}
