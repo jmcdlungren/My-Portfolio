@@ -160,15 +160,15 @@ main section h2 {
 }
 
 .led-wall {
-
+    background-image: url(./LED\ Wall.jpg);
 }
 
 .calculator {
-
+    background-image: url(./Calculator.jpg);
 }
 
 .pastel-puzzles {
-
+    background-image: url(./Pastel\ Puzzels.jpg);
 }
 
 .horiseon {
