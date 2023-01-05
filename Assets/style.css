@@ -17,6 +17,7 @@
 
 body {
     flex-flow: column;
+    line-height: 1.35;
 }
 
 h1
