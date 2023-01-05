@@ -152,20 +152,37 @@ main section h2 {
 }
 
 .work-item {
-
+    border: 6px solid var(--primary);
+    min-height: 200px;
+    max-height: 200px;
+    background-size: 150%;
+    flex-basis: calc(50% - 1em);
+    display: flex;
+    align-items: flex-end;
+    padding: 0 0 20px 0;
+    margin: 0.5em;
+    text-decoration: none;
+    background-blend-mode:color-burn;
+    color: var(--hcolor);
+    background-color: rgb(92, 89, 89);
+    transition: all 0.85s;
 }
 
 .work-item:first-child {
-
+    min-height: 400px;
+    flex-basis: 100%;
 }
 
 .work-item figure {
     background-color: var(--primary);
-    padding: 4px 6px;
+    padding: 5px 50px;
+    
 }
 
 .work-item:hover {
-    
+    background-size: 100%;
+    background-color: rgb(136, 66, 136);
+    background-blend-mode:normal;
 }
 
 .prework-study-guide {
