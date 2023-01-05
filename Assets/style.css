@@ -176,13 +176,15 @@ main section h2 {
 .work-item figure {
     background-color: var(--primary);
     padding: 5px 50px;
-    
+    font-size: 150%;
+    font-weight: bold;
 }
+
 
 .work-item:hover {
     background-size: 100%;
-    background-color: rgb(136, 66, 136);
-    background-blend-mode:normal;
+    background-color: rgb(174, 185, 189);
+    
 }
 
 .prework-study-guide {
@@ -231,3 +233,32 @@ main section h2 {
     background-size: 100%;
 }
 
+
+
+@media screen and (max-width: 1097px) {
+    
+    .work-item,
+    .work-item:first-child {
+    flex-basis: 100%;
+  }
+
+    .work-item:first-child {
+    min-height: 300px;
+  }
+
+    .banner {
+    justify-content: center;
+    text-align: center;
+  }
+
+    .details {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+    .details a {
+    margin: 0;
+    padding: 0;
+  }
+  
+}
