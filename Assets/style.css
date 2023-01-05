@@ -1,9 +1,11 @@
+/* sets styling for entire page */
 * {
     box-sizing: border-box;
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* sets root colors for various stylings that may be repeated */
 :root {
   --primary: rgba(158, 247, 238, 0.837);
   --hcolor: rgb(65, 57, 57);
@@ -15,6 +17,7 @@
   --contact: violet;
 }
 
+/* sets styling for body of page; wanted things to wrap down in a column */
 body {
     flex-flow: column;
     line-height: 1.5;
@@ -33,6 +36,7 @@ p {
     margin: 0;
 }
 
+/* sets styling for the header element */
 header {
     background-color: rgb(25, 25, 48);
     margin: 0;
@@ -44,6 +48,7 @@ header {
     align-items: center;
 }
 
+/* sets styling for the h1 element inside of the header element */
 header h1 {
     background-color: var(--primary);
     color: var(--hcolor);
@@ -55,12 +60,14 @@ header h1 {
     margin: 0;
 }
 
+/* sets styling for the nav element inside of the header element */
 header nav {
     display: flex;
     flex-flow: row;
     margin-right: -5rem;
 }
 
+/* sets styling for each of the links within the header nav element */
 header nav a {
     padding: 5px 20px;
     text-decoration: none;
@@ -68,6 +75,7 @@ header nav a {
     font-size: 1.5rem;
 }
 
+/* sets styling for the links within the header nav element whenever a cursor hovers over them */
 header nav a:hover {
     cursor: pointer;
     color: black;
@@ -77,6 +85,7 @@ header nav a:hover {
     border: 5px solid maroon;
 }
 
+/* creates a class of "banner" and sets styling for this section element, including the background image below the header element */
 .banner {
     background-image: url(./images/MCD.png);
     background-size: cover;
@@ -90,10 +99,12 @@ header nav a:hover {
     text-align: right;
 }
 
+/* sets styling of the article element containing the h2 element */
 .banner article {
     flex: 0 0 90%;
 }
 
+/* sets styling for the h2 element within the banner class */
 .banner h2 {
     background-color: var(--primary);
     color: var(--hcolor);
@@ -104,16 +115,19 @@ header nav a:hover {
     display: inline;
 }
 
+/* sets the basic styling of all font and background of anything inside the main element */
 main {
     background: var(--light);
     color: var(--dark);
 }
 
+/* sets styling for each section element inside of the main element */
 main section {
     display: flex;
     flex-flow: row;
 }
 
+/* sets styling of each h2 within the main section elements */
 main section h2 {
     font-size: 3.5rem;
     margin: 1em 1em 1em 1.5em;
@@ -124,34 +138,40 @@ main section h2 {
     line-height: 1.1;
 }
 
+/* creates a class to set up styling for the div element inside of the "about me" section */
 .About {
     font-size: 1.3rem;
     display: flex;
     flex-flow: column;
 }
 
+/* sets styling for each p element inside of the About class */
 .About-p {
     padding: 10px 5px 0 5px;
     margin: 0 0 10px 10px;
 }
 
+/* creates class for the embedded link inside the first p element to set styling */
 .McDowell {
     text-decoration: none;
     color: purple;
 }
 
+/* sets styling for whenever someone hovers their cursor over the embedded link */
 .McDowell:hover {
     text-decoration: underline;
     cursor: pointer;
     color: rgb(133, 25, 25);
 }
 
+/* sets class for styling for the div inside of the "work" section, representing the list of work */
 .work-list {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
 
+/* sets class for styling for each a element inside the div, representing each work item */
 .work-item {
     border: 6px solid var(--primary);
     min-height: 200px;
@@ -169,11 +189,13 @@ main section h2 {
     transition: all 0.85s;
 }
 
+/* sets styling for specifically the first a element inside of the div, as the first a element is the "first child" of the div element */
 .work-item:first-child {
     min-height: 400px;
     flex-basis: 100%;
 }
 
+/* sets styling for each figure within each of the work-item classes */
 .work-item figure {
     background-color: var(--primary);
     padding: 5px 50px;
@@ -181,32 +203,39 @@ main section h2 {
     font-weight: bold;
 }
 
+/* sets styling for whenever someone hovers their cursor over each work-item class */
 .work-item:hover {
     background-size: 100%;
     background-color: rgb(174, 185, 189);
-    
+
 }
 
+/* sets a class for styling for the first work-item class, which is the prework study guide */
 .prework-study-guide {
     background-image: url(./images/Prework\ study\ guide.jpg);
 }
 
+/* sets a class for styling for the first work-item class, which is the "LED wall," to be edited later once we complete more projects and challenges */
 .led-wall {
     background-image: url(./images/LED\ Wall.jpg);
 }
 
+/* sets a class for styling for the first work-item class, which is the "Calculator," to be edited later once we complete more projects and challenges */
 .calculator {
     background-image: url(./images/Calculator.jpg);
 }
 
+/* sets a class for styling for the first work-item class, which is the "pastel puzzels," to be edited later once we complete more projects and challenges */
 .pastel-puzzles {
     background-image: url(./images/Pastel\ Puzzels.jpg);
 }
 
+/* sets a class for styling for the first work-item class, which is the Horiseon challenge */
 .horiseon {
     background-image: url(./images/Horiseon.jpg);
 }
 
+/* creates class for styling for the nav element within the contact-me section */
 .details {
     display: flex;
     flex-flow: row;
@@ -214,6 +243,7 @@ main section h2 {
     align-items: center;
 }
 
+/* sets styling for each a element within the details class */
 .details a {
     text-decoration: none;
     padding: 5px;
@@ -227,14 +257,16 @@ main section h2 {
     display: inline-block;
 }
 
+/* sets styling for whenever someone hovers their cursor over each a element within the details class */
 .details a:hover {
     cursor: pointer;
     font-style: oblique;
     background-size: 100%;
 }
 
+/* changes certain styling for any screen sized 1097px or smaller */
 @media screen and (max-width: 1097px) {
-    
+
     header {
         justify-content: center;
         text-align: center;
@@ -283,10 +315,10 @@ main section h2 {
         align-items: center;
         margin-bottom: 25px;
     }
-  
+
     .details a {
         margin: 5px 0 0 0;
         padding: 5px 0 0 0;
     }
-  
+
 }
