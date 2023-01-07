@@ -59,7 +59,6 @@ header h1 {
     padding: 10px 0% 10px 4%;
     font-size: 3em;
     line-height: 1;
-    margin: 0;
 }
 
 /* sets styling for the nav element inside of the header element */
@@ -195,7 +194,7 @@ main section h2 {
     background-blend-mode:color-burn;
     color: var(--hcolor);
     background-color: rgb(92, 89, 89);
-    transition: all 0.85s;
+    transition: 0.85s;
 }
 
 /* sets styling for specifically the first a element inside of the div, as the first a element is the "first child" of the div element */
@@ -274,7 +273,7 @@ main section h2 {
 }
 
 /* changes certain styling for any screen sized 1097px or smaller */
-@media screen and (max-width: 1097px) {
+@media screen and (max-width: 1098px) {
 
     header {
         justify-content: center;
