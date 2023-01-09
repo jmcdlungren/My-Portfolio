@@ -95,16 +95,15 @@ header nav a:active {
 
 /* creates a class of "banner" and sets styling for this section element, including the background image below the header element */
 .banner {
-    background-image: url(./images/MCD.png);
+    background-image: url(./images/MCD\ &\ Me.png);
     background-size: cover;
     background-position: center;
     background-blend-mode: soft-light;
     max-height: 30vh;
     padding: 11% 3%;
     display: flex;
-    justify-content: flex-end;
-    align-items: flex-start;
-    text-align: right;
+    justify-content: center;
+    text-align: center;
 }
 
 /* sets styling of the article element containing the h2 element */
@@ -291,9 +290,8 @@ main section h2 {
         flex-wrap: wrap;
     }
 
-    .banner {
-        justify-content: center;
-        text-align: center;
+    .banner h2 {
+        font-size: 1.5rem;
     }
 
     main section {
