@@ -7,7 +7,7 @@ This is a webpage designed to host some of my web development work to assist wit
 Screenshots as follows:
 
 
-
+![Screenshot 1 Top](./Assets/images/Screenshot1.jpg)
 
 
 ![Screenshot 2 Middle](./Assets/images/Screenshot2.jpg)
