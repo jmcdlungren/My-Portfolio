@@ -217,29 +217,39 @@ main section h2 {
 
 }
 
-/* sets a class for styling for the first work-item class, which is the prework study guide */
-.prework-study-guide {
-    background-image: url(./images/Prework\ study\ guide.jpg);
+/* sets a class for styling for the first work-item class, which is the Global Seek project */
+.global-seek {
+    background-image: url(./images/Global\ Seek.png);
 }
 
-/* sets a class for styling for the first work-item class, which is the "LED wall," to be edited later once we complete more projects and challenges */
-.led-wall {
-    background-image: url(./images/LED\ Wall.jpg);
+/* sets a class for styling for the first work-item class, which is the Employee Tracker */
+.employee-tracker {
+    background-image: url(./images/Employee\ Tracker\ GIF.gif);
 }
 
-/* sets a class for styling for the first work-item class, which is the "Calculator," to be edited later once we complete more projects and challenges */
-.calculator {
-    background-image: url(./images/Calculator.jpg);
+/* sets a class for styling for the first work-item class, which is the README Generator */
+.read-me-generator {
+    background-image: url(./images/README\ Generator.gif);
 }
 
-/* sets a class for styling for the first work-item class, which is the "pastel puzzels," to be edited later once we complete more projects and challenges */
-.pastel-puzzles {
-    background-image: url(./images/Pastel\ Puzzels.jpg);
+/* sets a class for styling for the first work-item class, which is the Weather Dashboard */
+.weather-dashboard {
+    background-image: url(./images/Weather\ Dashboard.jpg);
 }
 
-/* sets a class for styling for the first work-item class, which is the Horiseon challenge */
-.horiseon {
-    background-image: url(./images/Horiseon.jpg);
+/* sets a class for styling for the first work-item class, which is the Work Day Scheduler */
+.work-day-scheduler {
+    background-image: url(./images/Work\ Day\ Scheduler.jpg);
+}
+
+/* sets a class for styling for the first work-item class, which is the Note Taker */
+.note-taker {
+    background-image: url(./images/Note\ Taker.jpg);
+}
+
+/* sets a class for styling for the first work-item class, which is the Team Profile Generator */
+.team-profile-generator {
+    background-image: url(./images/TeamGif.gif);
 }
 
 /* creates class for styling for the nav element within the contact-me section */
