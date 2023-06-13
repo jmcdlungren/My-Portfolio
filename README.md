@@ -28,7 +28,7 @@ Screenshots as follows:
 ![Screenshot 1 Top](./Assets/images/Screenshot1.jpg)
 
 
-![Screenshot 2 Middle](./Assets/images/Screenshot2.jpg)
+![Screenshot 2 Middle](./Assets/images/2Screenshot.jpg)
 
 
 ![Screenshot 3 Bottom](./Assets/images/Screenshot3.jpg)
