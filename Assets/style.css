@@ -233,8 +233,8 @@ main section h2 {
 }
 
 /* sets a class for styling for the first work-item class, which is the Weather Dashboard */
-.weather-dashboard {
-    background-image: url(./images/Weather\ Dashboard.jpg);
+.ink-watch {
+    background-image: url(./images/ink-watch.gif);
 }
 
 /* sets a class for styling for the first work-item class, which is the Work Day Scheduler */
